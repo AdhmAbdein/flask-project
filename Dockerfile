@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY /flask-project/project-code /app
+COPY /project-code /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
